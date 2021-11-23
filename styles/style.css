@@ -97,3 +97,129 @@ button {
     width: 450px;
     height: 250px;
 }
+
+/* photo card section */
+.card > a {
+    color: black;
+}
+
+.photo-section > h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-img {
+    background: rgb(34,193,195);
+    background: -moz-linear-gradient(156deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: -webkit-linear-gradient(156deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: linear-gradient(156deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#fdbb2d",GradientType=1); 
+}
+
+.photo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.card-container {
+    display: flex;
+    align-items: space-between;
+}
+
+.card-img {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 10%;
+    margin: 0 20px;
+    margin-bottom: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* quote section */
+.quote-section {
+    height: 400px;
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 150px;
+}
+
+.quote-section > p {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quote-author-text {
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 50px
+}
+
+.cta-section {
+    height: 400px;
+    padding: 0 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    background: #3882F6;
+    width: 950px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cta-btn{
+    appearance: none;
+    background-color: #3882F6;
+    border: 3px solid white;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+h4 {
+    color: white;
+    font-size: 24px;
+}
+
+/* footer */
+.footer {
+    height: 80px;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
